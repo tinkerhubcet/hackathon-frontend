@@ -12,9 +12,40 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+input::before {
+  content: "Select an image";
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 2px solid #f9f9f9;
+  border-radius: 3px;
+  padding: 7px 10px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 12pt;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
 
 .App-header {
-  background-color: #282c34;
+  background: #e96443; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e96443,
+    #904e95
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e96443,
+    #904e95
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +66,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+img {
+  height: 6rem;
 }
