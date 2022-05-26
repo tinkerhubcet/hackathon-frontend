@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="/logo.png" />
+        <img src="https://raw.githubusercontent.com/tinkerhubcet/hackathon-frontend/main/public/logo.png" />
         <h1>Tinkerhub CET</h1>
         <h2> Separating non-biodegradable solid waste</h2>
 
