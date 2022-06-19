@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src="https://raw.githubusercontent.com/tinkerhubcet/hackathon-frontend/main/public/logo.png" />
-        <h1>Tinkerhub CET</h1>
+        <h1>Hackathon-Workshop-2022</h1>
         <h2> Separating non-biodegradable solid waste</h2>
 
         <FileBase64
