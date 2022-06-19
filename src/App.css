@@ -35,17 +35,18 @@ input::before {
 }
 
 .App-header {
-  background: #e96443; /* fallback for old browsers */
+  background: #00c6ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #e96443,
-    #904e95
+    #0072ff,
+    #00c6ff
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #e96443,
-    #904e95
+    #0072ff,
+    #00c6ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,7 +55,9 @@ input::before {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.top-img {
+  height: 12rem;
+}
 .App-link {
   color: #61dafb;
 }

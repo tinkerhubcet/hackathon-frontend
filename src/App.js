@@ -31,7 +31,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://raw.githubusercontent.com/tinkerhubcet/hackathon-frontend/main/public/logo-2.png" />
+        <img
+          className="top-img"
+          src="https://raw.githubusercontent.com/tinkerhubcet/hackathon-frontend/main/public/logo-2.png"
+        />
         <h1>Hackathon-Workshop-2022</h1>
         <h2> Separating non-biodegradable solid waste</h2>
 
